@@ -2,6 +2,15 @@ doctype html
 html
   head
     title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap-theme.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+    link(rel='stylesheet', href='/stylesheets/main.css')
+    script(type='text/javascript', src='/javascripts/jquery.min.js')
+    script(type='text/javascript', src='/javascripts/bootstrap.min.js')
+  body#web_styles
+    include header
+    .container
+      #main.col-md-12.content_border
+        .col-md-12
+          block content

@@ -1,6 +1,12 @@
+@font-face{
+  font-family: 'DidactGothic';
+  src: url(/stylesheets/fonts/DidactGothic.ttf);
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #D8D8D8;
+  padding-bottom: 50px;
+  font: 14px "DidactGothic", Helvetica, Arial, sans-serif;
 }
 
 a {

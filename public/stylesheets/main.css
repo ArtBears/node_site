@@ -1,0 +1,94 @@
+/* Generic Styles */
+.no-padding {
+  padding: 0 0 !important; }
+
+.no-margin {
+  margin: 0 0 !important; }
+
+/* Namespace
+
+   KEEP CUSTOM STYLINGS IN THIS TAG */
+#web_styles {
+  font-family: 'DidactGothic';
+  /* Main Content Wrapper - Borders - Spacing */
+  /* Blog Post Styles  */ }
+  #web_styles .blue {
+    background: blue !important; }
+  #web_styles .green {
+    background: green; }
+  #web_styles nav {
+    position: relative;
+    background: #871847; }
+    #web_styles nav:after {
+      width: 100%;
+      background: yellow; }
+  #web_styles .navbar {
+    border-radius: 0px !important;
+    margin-bottom: 0px !important; }
+  #web_styles .nav > li > a:focus, #web_styles .nav > li > a:hover {
+    background: #871847; }
+  #web_styles a {
+    color: #f8f8f8 !important; }
+    #web_styles a:focus, #web_styles a:hover {
+      color: #f8f8f8 !important; }
+  #web_styles .nav.navbar-nav ul li {
+    position: relative;
+    height: 100%; }
+  #web_styles .navbar-nav li {
+    border-top: 2.25px solid transparent;
+    min-width: 112px;
+    text-align: center;
+    -webkit-transition: border-top 1s;
+    -moz-transition: border-top 1s;
+    -o-transition: border-top 1s;
+    transition: border-top 1s; }
+    #web_styles .navbar-nav li a {
+      padding: 30px 30px; }
+  #web_styles .navbar-right li:hover {
+    border-top: 2.25px solid white; }
+  #web_styles .page_nav {
+    padding-right: 5em; }
+  #web_styles .nav-logo a.clearfix {
+    padding: 10px 30px; }
+  #web_styles .nav-logo:hover {
+    border-top: 2.25px solid transparent; }
+  #web_styles .nav-logo .logo-img {
+    background: white;
+    border-radius: 100%;
+    padding: 10px; }
+    #web_styles .nav-logo .logo-img img {
+      height: 50px;
+      width: 50px; }
+  #web_styles .content_border {
+    padding-top: 4em; }
+  #web_styles .blog_preview {
+    background: #fff;
+    min-height: 20em;
+    margin-bottom: 2em;
+    padding-left: 0;
+    padding-right: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 6px 5px 5px #979797;
+    -webkit-transition: box-shadow .5s;
+    -moz-transition: box-shadow .5s;
+    -o-transition: box-shadow .5s;
+    transition: box-shadow .5s; }
+    #web_styles .blog_preview p {
+      text-align: justify;
+      font-size: 1.6em; }
+    #web_styles .blog_preview:hover {
+      box-shadow: 6px 5px 5px teal;
+      cursor: pointer; }
+  #web_styles .blog_title {
+    margin-bottom: 0.7em;
+    text-align: center; }
+  #web_styles .blog_preview_group_image {
+    height: 80px;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0; }
+  #web_styles .blog_preview_common {
+    background-image: url(image_path("london.png")); }
