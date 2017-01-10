@@ -17,17 +17,20 @@ var MongoClient = require('mongodb').MongoClient;
 
 var server = http.createServer(app);
 
-/**
- * Listen on provided port, on all network interfaces.
- */
+
 MongoClient.connect('mongodb://localhost:27017/letsTest', function(err, db){
 
   console.log('successfully connected to db');
 /**
- * Get port from environment and store in Express.
+ * Listen on provided port, on all network interfaces.
  */
 
 var port = normalizePort(process.env.PORT || '8081');
+
+/**
+ * Get port from environment and store in Express.
+ */
+
 app.set('port', port);
 server.listen(port, '127.0.0.1');
 server.on('error', onError);
